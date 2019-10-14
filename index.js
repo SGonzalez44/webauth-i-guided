@@ -12,7 +12,7 @@ server.use(express.json());
 server.use(cors());
 
 server.get('/', (req, res) => {
-  res.send("It's alive!");
+  res.send("Welcome to Sal's MIND!");
 });
 
 server.post('/api/register', (req, res) => {
